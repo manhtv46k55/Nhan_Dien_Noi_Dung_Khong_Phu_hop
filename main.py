@@ -35,42 +35,75 @@ label_map = {
 # ============================
 # Danh sách câu để test
 samples = [
-    # Vietnamese offensive / hate speech
+    # --- Offensive / Hate (VN) ---
     "Địt mẹ mày!",
     "Tôi ghét mấy người đó!",
     "Mày là đồ ngu!",
     "Bọn chó khốn nạn kia!",
     "Mấy thằng cali",
     "Đồ phản quốc, lũ súc vật!",
+    "Bọn tây lông đấy chỉ biết ăn chơi.",
+    "Lũ Ấn Độ bẩn thỉu.",
+    "Người da đen toàn là tội phạm.",
+    "Bọn đồng tính là bệnh hoạn.",
+    "Mấy thằng lùn xấu xí.",
+    "Đám người đó toàn rác rưởi.",
+    "Tao thề mày ngu như bò.",
+    "Cút về nước mày đi!",
+    "Đám đó chỉ biết ăn bám xã hội.",
+    "Mày đúng là thằng vô dụng.",
+    "Tao không thèm nói chuyện với mày nữa.",
+    "Bạn là người thông minh mà, bạn hiểu tôi đang nói gì đúng không? suy cho cùng thì chế độ này vẫn đầy rẫy cạm bẫy.",
+    "Toàn dân hãy đứng lên chống lại bọn cướp nước!",
+    "Bọn tham nhũng chỉ biết vơ vét của dân.",
+    "Mày đúng là thằng khốn nạn.",
+    "Chính quyền bù nhìn",
+    "Bọn chúng mày chỉ biết ăn chơi trác táng.",
+    "Mày đúng là đồ chó đẻ.",
+    "Tao sẽ cho mày biết thế nào là đau đớn.",
+    "Mày đúng là thằng mất dạy.",
+    "Chính quyền Việt Nam là bọn tay sai cho Trung Quốc.",
+    "Bọn chúng mày đúng là lũ súc vật.",
+    "Mày đúng là thằng ăn bám xã hội.",
 
-    # Vietnamese neutral / political / sensitive
+    # --- Neutral / Political (VN) ---
     "Chế độ độc tài!",
     "Đảng này chỉ toàn tham nhũng.",
     "Tôi không quan tâm đến chính trị.",
     "Hôm nay trời rất đẹp.",
 
-    # English hate/offensive
+    # --- English Offensive ---
     "You are such an idiot!",
     "I hate people like you.",
     "Go back to your country!",
     "That group is full of trash.",
 
-    # English neutral/positive
+    # --- English Neutral / Positive ---
     "I love my family.",
     "What a wonderful day!",
     "He is working very hard to succeed.",
     "Let's go play football tomorrow.",
 
-    # French (positive / neutral)
+    # --- French ---
     "Je t'adore mon ami.",
     "Il fait très beau aujourd'hui.",
     "C'est une mauvaise idée.",
 
-    # Mixed / tricky
-    "Mày là đồ chó nhưng tao vẫn quý mày.",  # offensive + friendly
-    "Thằng đó chơi ngu thật.",              # slang insult
-    "I hate racism, but I love diversity.", # contains 'hate' but positive context
-    "Stop spreading fake news!",            # political tone
+    # --- Mixed / Slang ---
+    "Mày là đồ chó nhưng tao vẫn quý mày.",
+    "Thằng đó chơi ngu thật.",
+    "I hate racism, but I love diversity.",
+    "Stop spreading fake news!",
+
+    # --- 18+ / NSFW ---
+    "Tao muốn làm tình với mày.",
+    "Địt con mẹ nó phê vãi.",
+    "Mày chỉ giỏi khoe hàng thôi.",
+    "Thằng kia toàn xem phim sex.",
+    "This porn video is disgusting.",
+    "She has a sexy body, I want her now.",
+    "Anh muốn ngủ với em tối nay.",
+    "Cái váy này nhìn gợi cảm quá.",
 ]
 
 
